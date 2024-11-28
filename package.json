@@ -1,0 +1,36 @@
+{
+  "name": "alpha-language",
+  "displayName": "Alpha Language",
+  "description": "Language support for Alpha",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "languages": [{
+        "id": "alpha",
+        "aliases": ["Alpha", "alpha"],
+        "extensions": [".alpha", ".la"],
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "light": "./icons/alpha-light.svg",
+          "dark": "./icons/alpha-dark.svg"
+        }
+    }],
+    "grammars": [{
+        "language": "alpha",
+        "scopeName": "source.alpha",
+        "path": "./syntaxes/alpha.tmLanguage.json"
+    }],
+    "themes": [
+      {
+          "label": "Alpha Dark",
+          "uiTheme": "vs-dark",
+          "path": "./themes/alpha-dark.json"
+      }
+  ]
+}
+}

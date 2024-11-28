@@ -1,0 +1,58 @@
+{
+    "name": "Alpha Dark",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#1E1E1E",
+        "editor.foreground": "#D4D4D4"
+    },
+    "tokenColors": [
+        {
+            "scope": "keyword.control.alpha",
+            "settings": {
+                "foreground": "#C586C0"
+            }
+        },
+        {
+            "scope": "constant.language.alpha",
+            "settings": {
+                "foreground": "#569CD6"
+            }
+        },
+        {
+            "scope": "string.quoted.double.alpha",
+            "settings": {
+                "foreground": "#CE9178"
+            }
+        },
+        {
+            "scope": "constant.numeric.alpha",
+            "settings": {
+                "foreground": "#B5CEA8"
+            }
+        },
+        {
+            "scope": "entity.name.function.alpha",
+            "settings": {
+                "foreground": "#DCDCAA"
+            }
+        },
+        {
+            "scope": "support.function.alpha",
+            "settings": {
+                "foreground": "#4EC9B0"
+            }
+        },
+        {
+            "scope": "variable.other.alpha",
+            "settings": {
+                "foreground": "#9CDCFE"
+            }
+        },
+        {
+            "scope": "comment",
+            "settings": {
+                "foreground": "#6A9955"
+            }
+        }
+    ]
+}
