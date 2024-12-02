@@ -39,7 +39,7 @@
             "patterns": [
                 {
                     "name": "keyword.control.alpha",
-                    "match": "\\b(if|else|while|for|return|var|import|fun|class|this)\\b"
+                    "match": "\\b(if|else|while|for|return|var|import|fun|class|this|new)\\b"
                 },
                 {
                     "name": "constant.language.alpha",
@@ -70,7 +70,11 @@
                 },
                 {
                     "name": "support.function.alpha",
-                    "match": "\\b(print|input|toString|toNumber|toBool|substring|len)\\b"
+                    "match": "\\b(print|input|einput|readFile|writeFile|appendFile|toString|toNumber|toBool|substring|len|concat)\\b"
+                },
+                {
+                    "name": "math.function.alpha",
+                    "match": "\\b(sqrt|pow|abs|floor|ceil)\\b"
                 }
             ]
         },
