@@ -39,7 +39,7 @@
             "patterns": [
                 {
                     "name": "keyword.control.alpha",
-                    "match": "\\b(if|else|while|for|return|var|import|fun|class|this|new)\\b"
+                    "match": "\\b(if|else|while|for|return|var|import|fun|class|this|new|dict|try|catch)\\b"
                 },
                 {
                     "name": "constant.language.alpha",
